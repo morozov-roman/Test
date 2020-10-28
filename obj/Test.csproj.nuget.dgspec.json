@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/romanmorozov/RiderProjects/Test/Test/Test.csproj": {}
+  },
+  "projects": {
+    "/Users/romanmorozov/RiderProjects/Test/Test/Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/romanmorozov/RiderProjects/Test/Test/Test.csproj",
+        "projectName": "Test",
+        "projectPath": "/Users/romanmorozov/RiderProjects/Test/Test/Test.csproj",
+        "packagesPath": "/Users/romanmorozov/.nuget/packages/",
+        "outputPath": "/Users/romanmorozov/RiderProjects/Test/Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/romanmorozov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            },
+            "Spire.Doc": {
+              "target": "Package",
+              "version": "[8.10.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/romanmorozov/.dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
